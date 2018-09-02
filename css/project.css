@@ -1,0 +1,341 @@
+
+
+
+/* navbar */
+
+/* activate link*/
+.navbar-inverse
+.navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>
+.active>a:focus, 
+.navbar-inverse
+.navbar-nav>.active>a:hover
+{
+    color: white;
+    background-color: darkred;
+}
+/* nav links*/
+.navbar-inverse .navbar-brand
+{
+   
+    font-size: 30px;
+    color:#cebbbb; 
+    line-height:30px;
+}
+.navbar-inverse .navbar-brand span
+{
+    color: darkred;
+}
+.navbar-nav>li>a
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+/* sropdown links*/
+
+.carousel-indicators .active{
+    background-color: darkred;
+}
+.carousel-indicators li{
+    border-color: black;
+}
+.dropdown-menu .divider
+{
+   background-color: darkred;
+}
+.dropdown-menu>li>a:hover
+{
+    background-color: darkred;
+    color:#cebbbb;
+    padding-left: 30px;
+    
+}
+
+
+/************** End NAvbar ***********************/
+
+
+/********************* Search cars **********/
+.search{
+    background-color: #D3D3D3 ;
+}
+.search h3{
+
+    font-weight: bold;
+    padding: 25px;
+}
+    
+.search h4{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.mercedes , .kia , .opel , .renault{
+    display: none;
+
+}
+
+/****************************search oil*************************/
+
+
+.oils h3{
+    font-weight: bold;
+    padding: 25px;
+}
+
+.oils #big{
+    padding: 25px;
+}
+.oil11,.oil22,.oil33,.oil44,.oil55,.oil66{
+    display: none;
+
+}
+
+/*  Our Client */
+
+.test{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #D3D3D3 ;
+   
+}
+.test .h2
+{
+    font-weight: bold;
+    padding: 25px;
+}
+.tset .lead
+{
+    line-height: 2em;
+    margin-bottom: 20px;
+}
+.test span
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+}
+.test.carousel-indicators li {
+   width: 80px;
+    height: 80px;
+    
+}
+#add_comment{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#comment{
+    border-radius:5%;
+}
+#button1{
+    margin-top: 10px;
+}
+
+
+/*our_team */
+.our_team
+{
+   
+     background: url("../images/car2.jpeg") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height: 400px;
+}
+.our_team a{
+    color: white;
+}
+.our_team h1
+{
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+.our_team .person
+{
+    margin-bottom: 50px;
+}
+.team
+{
+    
+    background: rgba(1,1,1,0.8);
+    min-height: 400px;
+    color: white;
+}
+
+/************* About Us **********/
+.devider{
+    text-align: center;
+    padding-bottom: 50px;
+    color: darkgray;
+}
+.devider:before{
+    color: darkgray;
+    content: "___________";
+   
+}
+.devider:after{
+    content: "___________";
+         color: darkgray;
+    
+}
+.about_us{
+    text-align: center;
+}
+
+.about_us span{
+    color: darkred;
+}
+.about_us p{
+    padding-bottom: 30px;
+}
+.about_us h2{
+    font-weight: bold;
+    padding-bottom: 20px;
+    color:  #8B0110;
+}
+.about_us p{
+    font-size: 20px;
+    color: darkgray;
+    padding: 10px;
+}
+
+/********** Our product ********/
+
+.our_Product h3{
+    padding: 25px;
+    font-weight: bold;
+}
+.our_Product ul{
+    list-style: none;
+}
+.our_Product
+{
+    background-color: darkgray;
+    padding: 25px;
+
+}
+.our_Product img
+{
+    
+    border-radius: 50%;
+    opacity: .4;
+    -webkit-transition:all 0.7s ease-in-out;
+    -moz-transition:all 0.7s ease-in-out;
+    -o-transition:all 0.7s ease-in-out;
+    transition:all 0.7s ease-in-out;
+}
+.our_Product img:hover
+{
+    opacity: 1;
+    border-radius: 35%;
+}
+/**************** Contact Us ***********************/
+.contact{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.contact h3{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+/**********scrol ****/
+#scrol{
+    position:fixed;
+    z-index:9998;
+    right:2px;
+    bottom:4px;
+    display:none;
+    background:none;
+    border-style:none;
+    color: darkred ;
+}
+/**********footer **************/
+
+.footer
+{
+    background-color: #333;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #ddd;
+}
+.footer h3
+{
+    color: darkred;
+}
+.footer link
+{
+    overflow: hidden;
+}
+.footer .link li
+{
+    width:33.3333%;
+    float: left;
+    padding: 5px;
+}
+.footer .link li:hover
+{
+    color: darkred;
+}
+
+.footer .social img
+{
+    width: 60px;
+    height: 60px;
+}
+.footer .social
+{
+   padding-top: 20px;
+    margin-bottom: 25px;
+}
+.footer .social li
+{
+    margin-top: 30px;
+    float:left;
+    opacity: .5;
+    -webkit-transition:all 0.7s ease-in-out;
+    -moz-transition:all 0.7s ease-in-out;
+    -o-transition:all 0.7s ease-in-out;
+    transition:all 0.7s ease-in-out;
+}
+.footer .social li:hover
+{
+    opacity: 1;
+}
+.footer .sub{
+    padding-top:35px;
+    padding-bottom: 25px; 
+}
+.footer .sub p {
+    padding-top: 25px;
+    font-size: 16px;
+    color: darkgray;
+}
+
+.footer .sub input[type="search"]{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 75%;
+    border: 10%;
+    border-bottom: 3px solid white;
+}
+
+.footer .sub ::placeholder{
+ color: black;
+ font-style: italic;
+ font-weight: bold;
+
+}
+.footer p{
+    padding-top: 25px;
+}
+.footer span {
+    color: darkred ;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
